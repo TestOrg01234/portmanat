@@ -1,0 +1,35 @@
+{
+    "name": "eminalishov/portmanat",
+    "description": "Portmanat Checkout laravel paketi",
+    "homepage": "https://www.facebook.com/alishov.emin",
+    "keywords": ["portmanat", "checkout", "laravel", "portmanat.az"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Emin Alishov",
+            "email": "emin.alishov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alishov\\Portmanat\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alishov\\Portmanat\\PortmanatServiceProvider"
+            ],
+
+            "aliases": {
+                "Portmanat": "Alishov\\Portmanat\\Facade\\Portmanat"
+            }
+        }
+    }
+}
