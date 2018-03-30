@@ -1,5 +1,5 @@
 # Portmanat Checkout
-
+![](https://portmanat.az/media/last/style/img/logo.png)
 - Portmanat Checkout Laravel inteqrasiyası üçün paket
 - Paket istifadə üçün quraşdırmadan sonra *portmanat* konfiqurasiya faylını redaktə edib partner məlumatlarınızı qeyd edin
 - *PortmanatController* controllerində 3 method var: result,success, failed
