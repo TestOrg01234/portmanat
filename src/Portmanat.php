@@ -48,7 +48,7 @@ class Portmanat {
         
         if($arr['test'] === FALSE){
             if($this->test() == TRUE){
-                echo 0;exit;
+                echo 1;exit;
             }
         }
         
